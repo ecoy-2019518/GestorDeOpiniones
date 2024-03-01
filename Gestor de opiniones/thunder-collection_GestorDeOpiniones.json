@@ -1,0 +1,404 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "GestorDeOpiniones",
+    "dateExported": "2024-03-01T17:29:00.088Z",
+    "version": "1.1",
+    "folders": [
+        {
+            "_id": "ce8d4f07-9516-4837-8015-163ce9254e1f",
+            "name": "User",
+            "containerId": "",
+            "created": "2024-03-01T13:24:52.661Z",
+            "sortNum": 10000
+        },
+        {
+            "_id": "2a2073b9-cacb-43e7-bf22-f5df90015604",
+            "name": "Category",
+            "containerId": "",
+            "created": "2024-03-01T13:24:52.662Z",
+            "sortNum": 20000
+        },
+        {
+            "_id": "cf06382e-7b22-4e88-a36f-884b360eaa12",
+            "name": "Publication",
+            "containerId": "",
+            "created": "2024-03-01T13:24:52.663Z",
+            "sortNum": 30000
+        },
+        {
+            "_id": "8a086490-1784-410f-bfd4-1344973cce1b",
+            "name": "Comment",
+            "containerId": "",
+            "created": "2024-03-01T13:24:52.664Z",
+            "sortNum": 40000
+        }
+    ],
+    "requests": [
+        {
+            "_id": "40289535-c87f-4df6-85f5-5aab83b8dada",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "ce8d4f07-9516-4837-8015-163ce9254e1f",
+            "name": "UserTest",
+            "url": "test",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2024-03-01T13:24:52.661Z",
+            "modified": "2024-03-01T13:24:52.661Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "2568f732-16cf-443d-8de3-d637d384bfbf",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "ce8d4f07-9516-4837-8015-163ce9254e1f",
+            "name": "UserRegister",
+            "url": "register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2024-03-01T13:24:52.662Z",
+            "modified": "2024-03-01T13:24:52.662Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "edwin"
+                    },
+                    {
+                        "name": "username",
+                        "value": "ecoy"
+                    },
+                    {
+                        "name": "email",
+                        "value": "ecoy@gmail.com"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "3b302801-b5ac-4650-975c-a17c8cf7b7a1",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "ce8d4f07-9516-4837-8015-163ce9254e1f",
+            "name": "UserLogin",
+            "url": "login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-03-01T13:24:52.663Z",
+            "modified": "2024-03-01T17:11:05.619Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "usernameOrEmail",
+                        "value": "ecoy"
+                    },
+                    {
+                        "name": "password",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "a62b1602-a9ea-43ea-8792-2cd5c5aca47e",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "ce8d4f07-9516-4837-8015-163ce9254e1f",
+            "name": "UserUpdate",
+            "url": "update/65e20bbd0839cc889fa4865b",
+            "method": "PUT",
+            "sortNum": 40000,
+            "created": "2024-03-01T13:24:52.664Z",
+            "modified": "2024-03-01T17:11:23.446Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGJiZDA4MzljYzg4OWZhNDg2NWIiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVjb3lAZ21haWwuY29tIiwibmFtZSI6ImVkd2luIiwiaWF0IjoxNzA5MzEzMDY1LCJleHAiOjE3MDkzMjM4NjV9.2zgKmvhXTq0rtOYXWRAl1v74NWo2zunDopLgWpsmyEo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "chuy"
+                    },
+                    {
+                        "name": "email",
+                        "value": "chuy@gmail.com"
+                    },
+                    {
+                        "name": "username",
+                        "value": "ecoy",
+                        "isDisabled": true
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "346286be-92a9-40af-b815-ffd5710d94b9",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "ce8d4f07-9516-4837-8015-163ce9254e1f",
+            "name": "UserEditMyPassword",
+            "url": "editMyPassword/65e20bbd0839cc889fa4865b",
+            "method": "PUT",
+            "sortNum": 50000,
+            "created": "2024-03-01T13:24:52.665Z",
+            "modified": "2024-03-01T17:12:02.734Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGJiZDA4MzljYzg4OWZhNDg2NWIiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVjb3lAZ21haWwuY29tIiwibmFtZSI6ImVkd2luIiwiaWF0IjoxNzA5MzEzMDY1LCJleHAiOjE3MDkzMjM4NjV9.2zgKmvhXTq0rtOYXWRAl1v74NWo2zunDopLgWpsmyEo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "oldPassword",
+                        "value": "123456789"
+                    },
+                    {
+                        "name": "newPassword",
+                        "value": "12345678"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d4167993-b471-40b0-9a7e-07b44661119a",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "2a2073b9-cacb-43e7-bf22-f5df90015604",
+            "name": "CategoryAdd",
+            "url": "category/add",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-03-01T13:24:52.666Z",
+            "modified": "2024-03-01T17:12:23.094Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGJiZDA4MzljYzg4OWZhNDg2NWIiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVjb3lAZ21haWwuY29tIiwibmFtZSI6ImVkd2luIiwiaWF0IjoxNzA5MzEzMDY1LCJleHAiOjE3MDkzMjM4NjV9.2zgKmvhXTq0rtOYXWRAl1v74NWo2zunDopLgWpsmyEo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "name",
+                        "value": "Videogames"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Video game topics"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "4f8af7ba-18a4-4aa5-ab8b-799f44fa06d6",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "cf06382e-7b22-4e88-a36f-884b360eaa12",
+            "name": "PublicationAdd",
+            "url": "publication/add",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-03-01T13:24:52.667Z",
+            "modified": "2024-03-01T17:12:56.515Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGJiZDA4MzljYzg4OWZhNDg2NWIiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVjb3lAZ21haWwuY29tIiwibmFtZSI6ImVkd2luIiwiaWF0IjoxNzA5MzEzMDY1LCJleHAiOjE3MDkzMjM4NjV9.2zgKmvhXTq0rtOYXWRAl1v74NWo2zunDopLgWpsmyEo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "65e20bbd0839cc889fa4865b"
+                    },
+                    {
+                        "name": "category",
+                        "value": "65e20c770839cc889fa48677"
+                    },
+                    {
+                        "name": "title",
+                        "value": "A new game of zelda"
+                    },
+                    {
+                        "name": "description",
+                        "value": "will be very entertaining for all"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "b1657773-27c2-4ba3-881f-54947a8e4a66",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "cf06382e-7b22-4e88-a36f-884b360eaa12",
+            "name": "PublicationUpdate",
+            "url": "publication/update/65e20c980839cc889fa48681",
+            "method": "PUT",
+            "sortNum": 75000,
+            "created": "2024-03-01T13:24:52.669Z",
+            "modified": "2024-03-01T17:13:28.708Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGJiZDA4MzljYzg4OWZhNDg2NWIiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVjb3lAZ21haWwuY29tIiwibmFtZSI6ImVkd2luIiwiaWF0IjoxNzA5MzEzMDY1LCJleHAiOjE3MDkzMjM4NjV9.2zgKmvhXTq0rtOYXWRAl1v74NWo2zunDopLgWpsmyEo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "title",
+                        "value": "New games from Nintendo"
+                    },
+                    {
+                        "name": "description",
+                        "value": "Many games for this new year"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "58230980-c33f-4fcc-8336-a99744edd152",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "cf06382e-7b22-4e88-a36f-884b360eaa12",
+            "name": "PublicationDelete",
+            "url": "publication/deleteP/65e20c980839cc889fa48681",
+            "method": "DELETE",
+            "sortNum": 80000,
+            "created": "2024-03-01T13:24:52.668Z",
+            "modified": "2024-03-01T17:14:02.020Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGJiZDA4MzljYzg4OWZhNDg2NWIiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVjb3lAZ21haWwuY29tIiwibmFtZSI6ImVkd2luIiwiaWF0IjoxNzA5MzEzMDY1LCJleHAiOjE3MDkzMjM4NjV9.2zgKmvhXTq0rtOYXWRAl1v74NWo2zunDopLgWpsmyEo"
+                }
+            ],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "e44133ef-c4c4-4ceb-ac1e-ac86879ae239",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "8a086490-1784-410f-bfd4-1344973cce1b",
+            "name": "CommentAdd",
+            "url": "comment/add",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-03-01T13:24:52.670Z",
+            "modified": "2024-03-01T17:24:55.125Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGJiZDA4MzljYzg4OWZhNDg2NWIiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVjb3lAZ21haWwuY29tIiwibmFtZSI6ImVkd2luIiwiaWF0IjoxNzA5MzEzMDY1LCJleHAiOjE3MDkzMjM4NjV9.2zgKmvhXTq0rtOYXWRAl1v74NWo2zunDopLgWpsmyEo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "user",
+                        "value": "65e1d7356eb99f6a48341f78",
+                        "isDisabled": true
+                    },
+                    {
+                        "name": "publication",
+                        "value": "65e20c980839cc889fa48681"
+                    },
+                    {
+                        "name": "comment",
+                        "value": "Hello world"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "9321be34-fa27-4642-8fb4-402c7a2c6b22",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "8a086490-1784-410f-bfd4-1344973cce1b",
+            "name": "CommentUpdate",
+            "url": "comment/update/65e20d230839cc889fa4868f",
+            "method": "PUT",
+            "sortNum": 110000,
+            "created": "2024-03-01T13:24:52.671Z",
+            "modified": "2024-03-01T17:27:10.744Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGJiZDA4MzljYzg4OWZhNDg2NWIiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVjb3lAZ21haWwuY29tIiwibmFtZSI6ImVkd2luIiwiaWF0IjoxNzA5MzEzMDY1LCJleHAiOjE3MDkzMjM4NjV9.2zgKmvhXTq0rtOYXWRAl1v74NWo2zunDopLgWpsmyEo"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "formencoded",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "comment",
+                        "value": "Forget to comment on this post xd"
+                    }
+                ]
+            },
+            "tests": []
+        },
+        {
+            "_id": "d6013345-bc3c-4da5-b5aa-260a431c8a50",
+            "colId": "f3372854-ff64-43f1-9a8e-866fec3c6f4d",
+            "containerId": "8a086490-1784-410f-bfd4-1344973cce1b",
+            "name": "CommentDeleteC",
+            "url": "comment/deleteC/65e20d230839cc889fa4868f",
+            "method": "DELETE",
+            "sortNum": 130000,
+            "created": "2024-03-01T13:24:52.672Z",
+            "modified": "2024-03-01T17:28:04.689Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2NWUyMGJiZDA4MzljYzg4OWZhNDg2NWIiLCJ1c2VybmFtZSI6ImVjb3kiLCJlbWFpbCI6ImVjb3lAZ21haWwuY29tIiwibmFtZSI6ImVkd2luIiwiaWF0IjoxNzA5MzEzMDY1LCJleHAiOjE3MDkzMjM4NjV9.2zgKmvhXTq0rtOYXWRAl1v74NWo2zunDopLgWpsmyEo"
+                }
+            ],
+            "params": [],
+            "tests": []
+        }
+    ],
+    "settings": {
+        "options": {
+            "baseUrl": "localhost:2656/"
+        }
+    }
+}
